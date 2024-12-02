@@ -1,1 +1,1 @@
-This repository is for CCMACLRL Exercises
+This repository is for CCADMACL Exercises
