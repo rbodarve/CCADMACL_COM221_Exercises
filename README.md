@@ -1,1 +1,1 @@
-# CCADMCL_COM221_Exercises
+This repository is for CCMACLRL Exercises
