@@ -4,7 +4,7 @@ This repository is for Advance Machine Learning Subject (CCADMACL) Exercises
 
 - Setup: dota2.ipynb reads OPENDOTA_API_KEY from a gitignored .env file (one line: OPENDOTA_API_KEY=your_key).
 - Security: a hardcoded API key was removed from the whole git history on 2026-10-18 (history rewritten; commit hashes changed).
-- Data: tv_show_posters/ (6384 posters, 1.5 GB) is tracked in git; imdbscrape.ipynb can re-download it. old_imdb_episodes.csv and tv_posters/ are not used by any notebook.
+- Data: tv_show_posters/ (6384 posters, 1.5 GB) was removed from git history on 2026-10-18 and is gitignored; imdbscrape.ipynb can re-download it. old_imdb_episodes.csv and tv_posters/ are not used by any notebook.
 - Drafts: finalAnalysis, finalAnalysis2, finalAnalysis3 and imdbtempanalysis are versions of one poster PCA/clustering analysis; the repo does not record which version was submitted.
 - Known bugs (as submitted, not fixed; cell = 0-based code-cell index):
   - imdbimage cell 0: the URL loses its domain, so every request fails silently and top_tv_shows_complete.csv has only a header; show 250 is skipped.
